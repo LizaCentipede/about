@@ -91,9 +91,13 @@
         animation-iteration-count: infinite;
       }
 
+      a:visited {
+        color: #375c0c;
+        text-decoration: none;
+      }
 
       a:link {
-        color: #d11372;
+        color: #375c0c;
         text-decoration: none;
       }
 
@@ -101,6 +105,7 @@
         color: #91bf08;
         text-decoration: none;
       }
+
 
       li a:visited {
         text-decoration: none;
@@ -111,7 +116,10 @@
         color: #ff3098;
         background-color: white;
       }
-
+li a.active {
+  background-color: #d11372;
+  color: white;
+}
 
       h1,
       h2 {
@@ -181,7 +189,7 @@
         <h4> CREDITS WHERE IT'S DUE </h4>
         <p>
           <br> General:
-          <br> Fonts are <a href="https://fonts.google.com/specimen/VT323" target="_blank"> VT323</a> and <a href="https://fonts.google.com/specimen/Rubik+80s+Fade" target="_blank">Rubik 80's Fade</a>. I dithered my images in <a href="https://app.dithermark.com" target="_blank">Dithermark</a>. The look of my website was (pretty heavily imo) inspired by Ribose's wonderful site on <a href="https://ribo.zone" target="_blank">Neocities</a>.
+          <br> Fonts are <a href="https://fonts.google.com/specimen/VT323" target="_blank"> VT323</a> and <a href="https://fonts.google.com/specimen/Rubik+80s+Fade" target="_blank">Rubik 80's Fade</a>. I dithered my images in <a href="https://app.dithermark.com" target="_blank">Dithermark</a>.
           <br> Home page: <br> Christmas tree worms from:
           <br> Things I like:
           <br> Walking: All assets mine.
@@ -201,7 +209,7 @@
       <li><a href="https://lizacentipede.github.io/Website-homepage/#contact">Home</a></li>
       <li><a href="https://lizacentipede.github.io/Things-I-like/">Things I Like</a></li>
       <li><a href="https://lizacentipede.github.io/places/">Walking</a></li>
-      <li><a href="https://lizacentipede.github.io/about/">About</a></li>
+      <li><a class="active" href="https://lizacentipede.github.io/about/">About</a></li>
     </ul>
 
 
